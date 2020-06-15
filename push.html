@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<button onclick="pushValue()">Add value to the end</button>
+		<p id="demo"></p>
+		<p id="demo1"></p>
+
+		<script>
+		var fruits = ["Banana", "Orange", "Apple", "Mango"];
+		var output1 = "<b>Current Array Before Push:</b> "+ fruits;
+		console.log(fruits);
+
+		function pushValue() {
+		fruits.push("Kiwi");
+		// document.getElementById("demo1").innerHTML = "<b>Current Array After Push:</b> "+fruits;
+		console.log(fruits);
+		}
+		</script>
+
+	</body>
+</html>

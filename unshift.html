@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+  
+<button onclick="unShiftValue()">Add value to Start</button>
+ <p id="demo"></p><p id="demo1"></p>
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.getElementById("demo").innerHTML = "<b>Current Array Before Unshift:</b> "+ fruits;
+console.log(fruits);
+  
+function unShiftValue() {
+  fruits.unshift("Guava");
+  // document.getElementById("demo1").innerHTML = "<b>Current Array After Unshift:</b> "+fruits;
+  console.log(fruits);
+}
+</script></body></html>

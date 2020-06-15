@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+  
+<button onclick="shiftValue()">Romve value from Start</button>
+<p id="demo"></p>
+<p id="demo1"></p>
+<script>
+	var fruits = ["Banana", "Orange", "Apple", "Mango"];
+	// document.getElementById("demo").innerHTML = "<b>Current Array Before Shift:</b> "+ fruits;
+	console.log(fruits);
+	  
+	function shiftValue() {
+	  fruits.shift();
+	  // document.getElementById("demo1").innerHTML = "<b>Current Array After Shift:</b> "+fruits;
+	  console.log(fruits);
+	}
+</script>
+</body>
+</html>
